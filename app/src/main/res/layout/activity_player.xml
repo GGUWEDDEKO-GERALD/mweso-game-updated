@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_player"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.don.mweso.player">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/star_big_on"
+            android:id="@+id/opponentBtn1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/btn_star"
+            android:id="@+id/playerBtn1"
+            android:adjustViewBounds="true"
+
+            android:visibility="invisible" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            android:id="@+id/playerBtn2"
+            android:adjustViewBounds="true"
+
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/btn_star"
+            android:id="@+id/playerBtn3"
+            android:adjustViewBounds="true"
+
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/btn_star"
+            android:id="@+id/playerBtn12"
+            android:adjustViewBounds="true"
+
+            />
+    </TableRow>
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+        android:gravity="center">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/star_big_off"
+                android:layout_centerVertical="true"
+                android:id="@+id/opponentBtn3" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/star_big_on"
+            android:layout_centerVertical="true"
+            android:id="@+id/opponentBtn9"
+            android:visibility="invisible"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/btn_star_big_off"
+            android:layout_centerVertical="true"
+            android:id="@+id/opponentBtn6"
+            android:adjustViewBounds="true" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/star_big_on"
+            android:layout_centerVertical="true"
+            android:id="@+id/opponentBtn10"
+            android:visibility="invisible"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/star_big_on"
+            android:layout_centerVertical="true"
+            android:id="@+id/opponentBtn11" />
+
+        </TableRow>
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/star_big_on"
+                android:layout_centerVertical="true"
+                android:id="@+id/opponentBtn5" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star"
+        android:id="@+id/playerBtn211"
+        android:adjustViewBounds="true"
+
+        android:visibility="invisible"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star"
+        android:id="@+id/playerBtn42"
+        android:adjustViewBounds="true"
+
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star"
+        android:id="@+id/playerBtn21"
+        android:adjustViewBounds="true"
+
+        android:visibility="invisible"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/star_big_on"
+        android:layout_centerVertical="true"
+        android:id="@+id/opponentBtn15" />
+        </TableRow>
+
+<TableRow android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+
+</TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:padding="5dp">
+
+
+        <Button
+            android:text="play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/button"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+    </TableRow>
+
+    </TableLayout>
+
+
+
